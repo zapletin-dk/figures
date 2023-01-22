@@ -9,12 +9,11 @@ class Point {
         this.y = y;
     }
 
-    public double getX() {
-        return x;
-    }
+    public double getX() { return x; }
 
     public double getY() {
         return y;
     }
 
+    public String pointToString(){ return "(" + this.x + ',' + this.y + ')'; }
 }
