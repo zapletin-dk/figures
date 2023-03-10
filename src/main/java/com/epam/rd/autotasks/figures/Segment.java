@@ -4,8 +4,7 @@ import static java.lang.Math.*;
 import static java.lang.StrictMath.pow;
 
 class Segment {
-    private final Point start;
-    private final Point end;
+    private final Point start, end;
 
     public Segment(Point start, Point end) {
         this.start = start;

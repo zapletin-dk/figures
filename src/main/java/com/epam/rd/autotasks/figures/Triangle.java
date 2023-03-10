@@ -48,10 +48,10 @@ class Triangle extends Figure{
 
     @Override
     public Point leftmostPoint() {
-        Point temp = points[0];
+        Point minPoint = points[0];
         for (Point point: points) {
-            if (temp.getX() > point.getX()) {temp = point;}
+            if (minPoint.getX() > point.getX()) { minPoint = point;}
         }
-        return temp;
+        return minPoint;
     }
 }
